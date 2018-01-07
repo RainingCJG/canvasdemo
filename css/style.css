@@ -1,0 +1,61 @@
+body,html,canvas,button{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix{
+	zoom: 1;
+}
+
+.clearfix:after{
+	content: '';
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+#cvs{
+	display: block;
+	margin: 0 auto;
+}
+
+/*按钮*/
+#btn-group{
+	margin: 0 auto;
+}
+
+#btn-group .btn{
+	float: left;
+	width: 10%;
+	height: 30px;
+	margin-top: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.btn-black{
+    background-color: black;
+}
+.btn-blue{
+    background-color: blue;
+}
+.btn-green{
+    background-color: green;
+}
+.btn-red{
+    background-color: red;
+}
+.btn-orange{
+    background-color: orange;
+}
+.btn-yellow{
+    background-color: yellow;
+}
+
+#btn-group .btn-reset{
+	float: right;
+	width: 50px;
+	margin-right: 0;
+	background-color: blue;
+	color: #fff;
+}
